@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  max-width: 960px;
+  margin: auto;
+  background-color: #b7b7ba;
+  color: #333;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  padding-bottom: 0.2em;
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 3em;
+}
+
+header {
+  text-align: center;
+  margin: auto 2em;
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header hr {
+  margin: 1rem 0;
+  border: 0;
+  height: 1px;
+  background: #444;
+}
+
+section {
+  margin: auto 1em 4em 2em;
+}
+
+i {
+  margin-right: 0.5em;
+}
+
+p,
+ul {
+  margin: 0.2em auto;
+  line-height: 1.6;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#mainLeft {
+  border-right: 1px solid lightgray;
+}
+
+#header hr {
+  background-color: lightgray;
+  height: 1px;
+}
